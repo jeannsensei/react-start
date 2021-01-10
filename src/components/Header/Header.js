@@ -7,7 +7,16 @@ import styles from './Header.module.css'
  * https://codeburst.io/9-amazing-react-libraries-that-will-simplify-a-developers-life-3274698b60d2
  */
 
-const Header = () => <div className={styles.Header}>Header Component</div>
+const Header = () => (
+    <div>
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+            crossOrigin="anonymous"
+        />
+    </div>
+)
 
 Header.propTypes = {}
 

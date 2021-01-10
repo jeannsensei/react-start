@@ -1,7 +1,7 @@
 import logo from './logo.svg'
 import './App.css'
 import Header from './components/Header/Header'
-import Router from './components/Router/Router'
+import Navigation from './components/Router/Router'
 
 /**
  * React CLI
@@ -16,7 +16,8 @@ import Router from './components/Router/Router'
 function App() {
     return (
         <div className="App">
-            <Router />
+            <Header />
+            <Navigation />
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
                 <p>
