@@ -21,6 +21,7 @@ class Navigation extends React.Component {
         /**
          * Helmet
          * npm install --save react-helmet
+         * https://stackoverflow.com/questions/34834091/changing-the-document-title-in-react
          */
         document.title = 'Amazing Page'
     }

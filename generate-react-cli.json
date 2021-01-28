@@ -10,6 +10,13 @@
       "withTest": false,
       "withStory": false,
       "withLazy": true
+    },
+    "service": {
+      "path": "src/services",
+      "withLazy": false,
+      "withStory": false,
+      "withStyle": false,
+      "withTest": false
     }
   }
 }

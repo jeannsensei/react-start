@@ -2,6 +2,7 @@ import logo from './logo.svg'
 import './App.css'
 import Header from './components/Header/Header'
 import Navigation from './components/Router/Router'
+import List from './components/List/List'
 
 /**
  * React CLI
@@ -18,6 +19,7 @@ function App() {
         <div className="App">
             <Header />
             <Navigation />
+            <List />
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
                 <p>

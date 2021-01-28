@@ -1,0 +1,7 @@
+.List {}
+
+.List_box {
+    height: 300px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
